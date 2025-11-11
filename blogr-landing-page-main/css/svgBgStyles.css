@@ -1,0 +1,13 @@
+.headerContainer {
+  background: linear-gradient(to top, rgba(255, 61, 84, 0.9), rgba(255, 143, 112, 0.9)), linear-gradient(to top, rgba(255, 61, 84, 0.4), rgba(255, 61, 84, 0.4));
+  border-radius: 0 0 0 90px;
+}
+
+.header {
+  background-image: url('/blogr-landing-page-main/images/bg-pattern-intro-mobile.svg');
+  background-repeat: no-repeat; /* Adjust as needed */
+ background-position: center center; /* Adjust as needed */
+  background-size: 950px; /* Adjust as needed */
+  opacity: 1;
+  padding: 13% 8% 50%;
+}
