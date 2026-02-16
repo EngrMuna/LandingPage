@@ -1,3 +1,9 @@
+:root {
+  --fontSize: 16px;
+  --fontFamily-overpass: 'Overpass';
+  --fontFamily-ubuntu: 'Ubuntu';
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,76 +11,9 @@
 }
 
 body {
-  font-size: 16px;
-  font-family: 'Overpass'
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  overflow: hidden;
-}
-
-.logoNhamburger {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 0 25%;
-}
-
-.descriptionContainer {
-  text-align: center;
-  color: white;
-  min-width: 80%;
-  margin: 0 auto;
-}
-
-.descriptionContainer h1 {
-  margin: 0 0 6%;
-  font-family: 'Ubuntu';
-  font-weight: 500;
-}
-
-.descriptionContainer button {
-  margin: 18% 0 0;
-  border-radius: 30px;
-  font-family: 'Ubuntu';
-  font-weight: 700;
-  font-size: 1em;
-}
-
-.startBtn {
-  background: hsl(0, 100%, 100%);
-  color: hsl(356, 100%, 66%);
-  border: none;
-  padding: 4% 6%;
-}
-
-.learnBtn {
-  background: transparent;
-  color: white;
-  border: 1px solid #FFFFFF;
-  padding: 4% 9%;
-}
-
-.sectionOneContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-  margin-top: 90px;
-}
-
-.sectionOneIntro h2 {
-  font-family: 'Ubuntu';
-  font-weight: 500;
-  color: #000;
-}
-
-.sectionOneSvg svg {
-  
+  font-size: var(--fontSize);
+  font-family: 'Overpass', 'Ubuntu';
+  background: azure;
 }
 
 .attribution {

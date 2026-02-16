@@ -1,0 +1,70 @@
+:root {
+  --padding: 20px;
+  /* Background gradient - intro/CTA mobile nav */
+  --gradient-bgColor: linear-gradient(to bottom, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+  
+  /* Background gradient - body */
+  --body-bg-gradientColor: linear-gradient(to left, hsl(237, 17%, 21%), hsl(237, 23%, 31%));
+  
+  /* Neural Colors */
+  --white: hsl(0, 100%, 100%);
+  --gray: hsl(207, 13%, 34%);
+  --gray-900: hsl(240, 10%, 16%);
+  --height: 80vh;
+}
+
+header {
+  position: relative;
+  background: var(--gradient-bgColor);
+  height: var(--height);
+  border-radius: 0 0 0 90px;
+  padding: 15% 8% 40px;
+  overflow: hidden;
+  z-index: -2;
+}
+
+header .bg-intro-mobile {
+  position: absolute;
+  bottom: -480px;
+  right: -645px;
+  z-index: -1;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero {
+  text-align: center;
+  color: var(--white);
+}
+
+.hero h1 {
+  padding: 20% 2% 15px;
+}
+
+.hero p {
+  padding: 0 18px 15%;
+}
+
+.cta button {
+  border: none;
+  padding: 13px 20px;
+  border-radius: 30px;
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+.cta button:nth-child(1) {
+  background: var(--white);
+  color: hsl(356, 100%, 66%);
+}
+
+.cta button:nth-child(2) {
+  background: transparent;
+  border: 1px solid var(--white);
+  color: var(--white);
+  margin-left: 10px;
+}
